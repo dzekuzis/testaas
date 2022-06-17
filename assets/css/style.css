@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+.section{
+    max-width: 100%;
+    
+    display: block;
+  
+
+   
+}
+img{
+    width: 50%;
+    position: relative;
+    right:35px
+}
+.flex{
+    display: flex;
+}
+.space-around{
+    justify-content: space-around;
+    justify-content: center;
+}
+.align-items{
+    align-content: center;
+    
+}
+.first{
+    max-width: 15%;
+    margin:30px;
+    text-align: center;
+    
+}
+.second{
+    max-width: 15%;
+    text-align: center;
+    margin:30px;
+}
+
+.third{
+    max-width:15% ;
+    text-align: center;
+    margin:30px;
+}
+
+.fourth{
+    max-width:15%;
+    text-align: center;
+    margin:30px;
+}
+.img1{
+    background-color:rgb(38, 198, 226);
+    height:200px;
+    justify-content:center;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.img2{
+    height:200px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(8, 61, 206);
+    border-radius: 10px;
+}
+.img3{
+    height:200px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(247, 68, 68);
+    border-radius: 10px;
+}
+.img4{
+    height:200px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(163, 152, 152);
+    border-radius: 5px;
+}
+h1{
+    color:red;
+    font-size: 25px;
+    font-weight: 600;
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.img1::before{
+    content: '1';
+    position:relative;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 13px;
+    right: 50px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    
+    bottom: 30px;
+    border: 5px solid rgb(38, 198, 226); ;
+    color:rgb(38, 198, 226);
+    font-size: 20px;
+   
+}
+.img2::before{
+    content: '2';
+    position:relative;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 13px;
+    right: 50px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    
+    bottom: 30px;
+    border: 5px solid  rgb(8, 61, 206); ;
+    color: rgb(8, 61, 206);
+    font-size: 20px;
+   
+}
+.img3::before{
+    content: '3';
+    position:relative;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 13px;
+    right: 50px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    
+    bottom: 30px;
+    border: 5px solid  rgb(247, 68, 68); ;
+    color: rgb(247, 68, 68);
+    font-size: 20px;
+}
+.img4::before{
+    content: '4';
+    position:relative;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 13px;
+    right: 50px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    
+    bottom: 30px;
+    border: 5px solid  rgb(163, 152, 152); ;
+    color: rgb(163, 152, 152);
+    font-size: 20px;
+}
